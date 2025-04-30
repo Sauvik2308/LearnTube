@@ -30,9 +30,16 @@ const Player = () => {
     ))
   }
 
+  // this was added because the page was breaking after hitting refresh
   useEffect(() => {
-    getCourseData()
-  }, [])
+    if (enrolledCourses && enrolledCourses.length > 0) {
+      getCourseData();
+    }
+  }, [enrolledCourses]);
+
+  // useEffect(() => {
+  //   getCourseData()
+  // }, [])
 
   return (
     <>
