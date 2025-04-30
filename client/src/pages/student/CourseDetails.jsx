@@ -5,7 +5,6 @@ import Loading from '../../components/student/Loading'
 import { assets } from '../../assets/assets'
 import humanizeDuration from 'humanize-duration'
 import Footer from '../../components/student/Footer'
-import YouTune from 'react-youtube'
 import YouTube from 'react-youtube'
 
 const CourseDetails = () => {
