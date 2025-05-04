@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
 
       <p className='py-4 text-center text-xs md:text-sm text-white/60'>
-        Copyright 2025 © GreatStack. All Rights Reserved.
+        Copyright 2025 © Sauvik2308. All Rights Reserved.
       </p>
     </footer>
   )
