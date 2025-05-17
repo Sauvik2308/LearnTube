@@ -23,7 +23,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='flex flex-col md:items-start items-center w-full'>
+        {/* <div className='flex flex-col md:items-start items-center w-full'>
           <h2 className='font-semibold text-white mb-5'>Company</h2>
           <ul className='flex md:flex-col w-full justify-between text-sm text-white/80 md:space-y-2'>
             <li><a href="#">Home</a></li>
@@ -31,7 +31,7 @@ const Footer = () => {
             <li><a href="#">Contact us</a></li>
             <li><a href="#">Privacy policy</a></li>
           </ul>
-        </div>
+        </div> */}
 
         <div className='hidden md:flex flex-col items-start w-full'>
           <h2 className='font-semibold text-white mb-5'>Subscribe to our newsletter</h2>
